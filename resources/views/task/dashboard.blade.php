@@ -28,6 +28,7 @@
 					</tr>
 				</tbody>
 			</table>
+			@include('task.pagination')
 			@include('task.create')
 			@include('task.edit')
 		</div>
